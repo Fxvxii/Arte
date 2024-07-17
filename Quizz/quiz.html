@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+
+    <title>Cuestionario</title>
+</head>
+<body>
+    <header>
+        <h1>QUIZZ ART CLASSIQUE</h1>
+        <p>¿Cuánto sabes del Arte Clásico?</p>
+    </header>
+
+<div class="container"> 
+   <section id="p0">
+      <h3> 1 - ¿Cuál de los siguientes NO es un invento del Antiguo Egipto? </h3>
+       <label>
+         <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> La balanza.
+       </label>
+       <label>
+         <input type="radio" value="2" name="p0"  onclick="respuesta(0,this)"> El papiro.
+       </label>
+       <label>
+         <input type="radio" value="3" name="p0"  onclick="respuesta(0,this)"> La rueda.
+       </label>
+       <label>
+         <input type="radio" value="4" name="p0"  onclick="respuesta(0,this)"> Las lámparas de aceite.
+       </label>
+   </section>
+
+   <section id="p1">
+     <h3> 2 - ¿Hace cuántos años empezó la civilización egipcia? </h3>
+       <label>
+         <input type="radio" value="1" name="p1"  onclick="respuesta(1,this)"> 5000 años aproximadamente.
+       </label>
+       <label>
+         <input type="radio" value="2" name="p1"  onclick="respuesta(1,this)"> 7500 años aproximadamente.
+       </label>
+       <label>
+         <input type="radio" value="3" name="p1"  onclick="respuesta(1,this)"> 5000000 años aproximadamente.
+       </label>
+       <label>
+         <input type="radio" value="4" name="p1"  onclick="respuesta(1,this)"> 100000 años aproximadamente.
+       </label>
+    </section>
+
+    <section id="p2">
+     <h3> 3 - Los templos egipcios eran para... </h3>
+       <label> 
+         <input type="radio" value="1" name="p2"  onclick="respuesta(2,this)"> Contemplar las esculturas de los dioses.
+       </label>
+       <label>
+         <input type="radio" value="2" name="p2"  onclick="respuesta(2,this)"> Rezarle a los dioses.
+       </label>
+       <label>
+         <input type="radio" value="3" name="p2"  onclick="respuesta(2,this)"> Compartir momentos especiales con los dioses.
+       </label>
+       <label>
+         <input type="radio" value="4" name="p2"  onclick="respuesta(2,this)"> Llevarle ofrendas a los dioses.
+       </label>
+    </section>
+
+    <section id="p3">
+      <h3> 4 - Grecia estaba ubicado en medio del… </h3>
+       <label>
+         <input type="radio" value="1" name="p3"  onclick="respuesta(3,this)"> Mar Mediterráneo.
+       </label>
+       <label>
+         <input type="radio" value="2" name="p3"  onclick="respuesta(3,this)"> Océano Pacífico.
+       </label>
+       <label>
+         <input type="radio" value="3" name="p3"  onclick="respuesta(3,this)"> Océano Atlántico.
+       </label>
+       <label>
+         <input type="radio" value="4" name="p3"  onclick="respuesta(3,this)"> Mar Caspio.
+       </label>
+    </section>
+
+    <section id="p4">
+     <h3> 5 - “En Grecia nace la poesía y la tragicomedia, que después se convierten en el teatro.” </h3>
+       <label>
+         <input type="radio" value="1" name="p4"  onclick="respuesta(4,this)"> Verdadero.
+       </label>
+       <label>
+         <input type="radio" value="2" name="p4"  onclick="respuesta(4,this)"> Falso.
+       </label>
+    </section>
+    
+    <section id="p5">
+     <h3> 6 - ¿Por qué las columnas griegas son tan importantes? </h3>
+      <label>
+        <input type="radio" value="1" name="p5"  onclick="respuesta(5,this)"> Los constructores hacían de ellas una obra de arte porque decían que hasta el elemento más básico y constructivo tenía que ser hermoso. 
+      </label>
+      <label>
+        <input type="radio" value="2" name="p5"  onclick="respuesta(5,this)"> Los principios constructivos que tienen las columnas griegas se usan hasta el día de hoy, pues cargan muchísimo si se hacen correctamente.
+      </label>
+      <label>
+        <input type="radio" value="3" name="p5"  onclick="respuesta(5,this)">  Los griegos hacían ceremonias en torno a sus columnas y las decoraban año tras año (cada línea marcaba una nueva edición de la ceremonia). 
+      </label>
+      <label>
+        <input type="radio" value="4" name="p5"  onclick="respuesta(5,this)"> No son importantes.
+      </label>
+    </section>
+  
+    <section id="p6">
+   <h3> 7 - El primer gobernante de Roma fue… </h3>
+   <label>
+     <input type="radio" value="1" name="p6"  onclick="respuesta(6,this)"> Remo.
+   </label>
+   <label>
+     <input type="radio" value="2" name="p6"  onclick="respuesta(6,this)"> Rómulo.
+   </label>
+   <label>
+     <input type="radio" value="3" name="p6"  onclick="respuesta(6,this)"> Augusto.
+   </label>
+   <label>
+     <input type="radio" value="4" name="p6" onclick="respuesta(6,this)"> Alejandro.
+   </label>
+</section>
+
+<section id="p7">
+   <h3> 8 - ¿Cuál de las siguientes construcciones estaba hecha para que los romanos alabaran a sus dioses? </h3>
+   <label>
+     <input type="radio" value="1" name="p7" onclick="respuesta(7,this)"> Anfiteatros.
+   </label>
+   <label>
+     <input type="radio" value="2" name="p7" onclick="respuesta(7,this)"> Basílicas.
+   </label>
+   <label>
+     <input type="radio" value="3" name="p7" onclick="respuesta(7,this)"> Hipódromos.
+   </label>
+   <label>
+     <input type="radio" value="4" name="p7" onclick="respuesta(7,this)"> Mausoleos.
+   </label>
+</section>
+
+<section id="p8">
+   <h3> 9 - “Los frescos romanos se caracterizaban por su profundo estudio de forma y color, así como su fiel representación de la figura humana durante la batallas” </h3>
+   <label>
+     <input type="radio" value="1" name="p8" onclick="respuesta(8,this)"> Verdadero.
+   </label>
+   <label>
+     <input type="radio" value="2" name="p8" onclick="respuesta(8,this)"> Falso.
+   </label>
+</section>
+
+<section id="p9">
+  <h3> 10 - “Los mosaicos eran más duraderos y de menor mantenimiento que la pintura. Por eso comenzaron a implementarse en todo el Imperio Romano.” </h3>
+   <label>
+     <input type="radio" value="1" name="p9" onclick="respuesta(9,this)"> Verdadero.
+   </label>
+   <label>
+     <input type="radio" value="2" name="p9" onclick="respuesta(9,this)"> Falso.
+   </label>
+</section>
+
+<button onclick="resultado()">RESULTADO</button>
+<h2>Cantidad acertadas: <spand id="resultado"></spand> </h2>
+
+</div>
+
+
+<script src="quiz.js"></script>
+</body>
+</html>

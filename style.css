@@ -2,45 +2,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-header {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-background-color: rgb(242, 215, 213);
-width: 100%;
-margin-bottom: 10px;
-font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: normal;}
+header{
+  background-color: rgba(242, 242, 204, 0.609);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between
+}
 
-#nosotros iframe {
-  padding: 10px;
-  margin: 10px;}
-
-#nosotros h2 {
+header ul{
+  list-style: none;
+  display: flex;
+  flex-direction:row;
   font-family: "Merriweather", serif;
-  font-weight: 700;
-  font-style: normal;}
+  font-weight: 400;
+  font-style: normal;
+}
 
-a {text-decoration: none;}
+header ul li{
+  margin: 10px;
+}
 
-header ul {list-style: none;
-    display: flex;
-    flex-direction: row;}
+header img {
+  margin: 0% 10% 0%;
+  width: 100px;
+}
 
-    header ul li {margin: 20px;}
 
-    header img {width: 150px;}
-
-img {width: 250px;}
+body {background-color: rgb(213, 216, 220 );}
 
 .contenedor1 { 
   display: flex;
    flex-direction: row;
    align-items: baseline;
    margin: 10px 0 10px 0;
-   background-color: rgb(242, 215, 213);
    width: 100%;
    height: 100%;
     font-family: "Merriweather", serif;
@@ -59,12 +55,38 @@ img {width: 250px;}
     align-items: center;
     padding: 15px;}
  
-.caja img {border-radius: 0%;}   
+.caja img {border-radius: 50%;}   
 
-.carousel-inner { object-fit: cover;
-                   margin: auto;
-                   width: 400px;
-                   height: 400px; }
+#video { width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+
+#video h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;}
+
+.carousel-inner{ margin: 15px 0 20px 0;}
+
+.objetivo { display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0 10px 0;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .oculto{
+    display:none;
+  }
+
+  .show{ 
+    display: block;
+  }
 
 
 
